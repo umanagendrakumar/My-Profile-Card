@@ -1,2 +1,2 @@
 # MY PROFILE CARD 
-This profile contains some basic information me.
+This profile contains some basic information about me.
