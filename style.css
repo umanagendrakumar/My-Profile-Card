@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.profile {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 3px;
+    margin-bottom: 10px;
+    
+}
+
+.profile .pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.profilecard {
+    max-width: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.profilecard .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    text-align: center;
+    
+}
+.text .name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.text .role {
+    font-size: 0.7rem;
+}
+.text > :last-child a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.7rem;
+}
+
+.profilecard .media {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.media .medial:hover {
+    font-size: 20px;
+}
+
+.media .link {
+    text-decoration: none;
+    background-color: rgb(3, 31, 40);
+    color: white;
+    font-size: 18px;
+    margin: 0 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.connect .react {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+    border-right: 1px solid black;
+}
+.react i {
+    font-size: 1rem;
+}
+
+.react:last-child {
+    border: none;
+}
+.react:hover * {
+    font-size: 22px;
+    transition: 0.2s;
+}
+.react .bx-heart:hover {
+    color: rgb(255, 0, 0);
+
+}
+.react .bx-message-rounded:hover {
+    color: rgb(5, 242, 255)
+}
+.react .bx-share:hover{
+    color: rgb(197, 7, 235)
+}
+
